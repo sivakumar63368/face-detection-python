@@ -5,7 +5,7 @@ import os
 face_cascade = cv2.CascadeClassifier('models/haarcascade_frontalface_default.xml')
 
 # Read the input image
-img = cv2.imread('data/sample.jpg')
+img = cv2.imread('data/sivakumar.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Detect faces
